@@ -8,7 +8,7 @@ public class conditional_loops
     //Area Of Triangle
     void two(){
         int h=4,b=6;
-        System.out.println((1/2)*h*b);
+        System.out.println((0.5)*h*b);
     }
     //Area Of Rectangle Program
     void three(){

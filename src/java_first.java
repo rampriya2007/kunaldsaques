@@ -1,15 +1,40 @@
 import java.util.Scanner;
 
+
 public class java_first {
+
+
     Scanner scan=new Scanner(System.in);
+
+
+   
+
     public static void main(String[] args) {
         java_first o1=new java_first();
-        o1.nine();
-
+      //  o1.nine();
+//          byte a=123;
+//          short b=32767;
+//          int c=1000000000;
+//          long d=9000000000000000000l;
+//          double e=999999999999999999999999999999999999999999999999.2d;
+//          float  f=99999999999999999999999999999999999999.22222202f;
+//
+//
+//
+//        System.out.println(a);
+//        System.out.println(++a);
+       // o1.zero();
+        //System.out.println(fib(7));
     }
-
 //Write a program to print whether a number is even or odd, also take input from the user.
 
+    void zero(){
+        String b=scan.nextLine();
+        System.out.println("hi");
+        String a=scan.nextLine();
+        System.out.println(b+" "+a);
+
+    }
     void one(){
         System.out.println("enter the number to find it's even or odd:");
 
